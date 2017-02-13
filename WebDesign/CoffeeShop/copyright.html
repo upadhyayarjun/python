@@ -1,0 +1,229 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+
+<style>
+@media print {
+	
+	#header, #footer {
+						display: none;
+					 }
+}
+@media screen and (max-width: 667px) and (min-width: 375px)
+	{
+			#header{
+						display: none;
+					}
+			table tr > *{
+						  display: block;
+						}
+			table tr {
+						display: table-cell;
+					 }
+			table td{
+					   width:130px
+					}
+			
+					
+	}
+	
+
+
+body {
+		background-color: #A18069;
+	 }
+	 
+a	{
+		color: white;
+		text-align: center;
+	}	
+
+	
+div.container {
+    width: 100%;
+    border: 1px solid gray;
+}
+
+#header, #footer {
+    padding: 1px;
+    color: white;
+    background-color: black;
+    clear: left;
+    text-align: center;
+}
+
+#menu {
+    float: left;
+    margin: 0;
+    
+}
+
+
+/* unvisited link */
+a:link {
+    color: white;
+}
+
+/* visited link */
+a:visited {
+    color: yellow;
+}
+
+/* mouse over link */
+a:hover {
+    color: hotpink;
+}
+
+/* selected link */
+a:active {
+    color: blue;
+}
+
+ul
+{
+    margin: 0;
+    padding: 0;
+}
+
+li
+{
+    list-style:none;
+}
+
+a
+{
+    text-decoration:none;
+}
+
+.cl-menu li
+{
+    position: relative;
+}
+
+.cl-menu > li:hover
+{
+    font-weight:bold;
+    opacity: 1;
+    filter: alpha(opacity=100);
+}
+
+.cl-menu li:hover
+{
+    background-color:#CFCAC8;
+}
+
+.cl-menu li a
+{
+    display: block;
+    min-width: 150px;
+    padding: 10px;
+    color:#CEF6F5;
+    font-family: 'Rancho', cursive;
+}
+
+.cl-menu li:hover a
+{
+    color:#FFF;
+
+}
+
+.cl-menu li ul
+{
+    position: absolute;
+    top: 0;
+    left: 100%;
+    
+    display:none;
+}
+
+.cl-menu li:hover > ul
+{
+    display:block;
+    opacity: 0.8;
+    filter: alpha(opacity=80);
+}
+
+#copy {
+			text-align: center;
+			color: black;
+			font-size: 14px;
+			font-family: "Comic Sans MS", cursive, sans-serif;
+		}
+	
+h1	{
+		text-align: center;
+		color: maroon;
+		font-size: 20px;
+		font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	}
+
+#first,#second	{
+
+			text-align:center;
+			font-size: 15px;
+			font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+			margin-left: 170px;
+			margin-right: 170px;
+		}	
+
+</style>
+<title>A J Coffee Shop</title>
+
+</head>
+<body>
+
+<div id="header">
+<center><img src="steaming.jpg" alt="Coffee Shop" style="height:250px;"/></center>
+</div>
+<br/>
+<div id="menu">
+<br>
+<ul class="cl-menu">
+<li><a href="home.html">Home</a></li><br/>
+<li><a href="aboutUs.html">About US</a></li><br/>
+<li><a href="menu.html">Menu</a></li><br/>
+<li><a href="imageGallery.html">Gallery</a></li><br/>
+<li id='albumes'>
+            <a href="#">Contact US</a>
+            <ul>
+                <li>
+                    <a href="tel:16179915682">Call us &#x2706;</a>
+                </li>
+                <li>
+                    <a href="sms:+16179915682?body=write your short message here..!!">SMS us now! &#x2709;</a>
+                </li>
+				<li>
+                    <a href="mailto:upadhyay.arjun61@gmail.com">E-mail &#x212E;</a>
+                </li>
+            </ul>   
+</li><br/>
+<li><a href="careers.html">Careers</a></li><br/>
+<li><a href="userRegistration.html">Register</a></li><br/>
+<li><a href="feedback.html">Feedback</a></li><br/>
+
+</ul>
+
+</div>
+<div id="copyright">
+<center>
+<h1><strong>Copyright</strong></h1>
+</center>
+<div id="first">
+Copyright © 2016 The Trustees of Columbia University in the City of New York. We encourage linking to this site and copying and distributing excerpts from it (without altering the text). If you copy from the site, please credit Keep Your Copyrights/Columbia Law School as the source of the copied material.
+</div>
+<br/>
+<div id="second">
+This website is intended to provide general information about legal topics but does not provide individual legal advice and the creators assume no liability for the accuracy of any information contained herein. Furthermore, using this website or sending us email does not create an attorney-client relationship.
+</div>
+</div>
+  <br>
+<center>
+<div id="footer">
+  <br>
+  
+  <p><a href="copyright.html">© Copyright 2016</a>&nbsp&nbsp&nbsp&nbsp<a href="terms.html">**Terms & Conditions</a>&nbsp&nbsp&nbsp&nbsp</p>
+</div>
+</center>
+</body>
+</html>

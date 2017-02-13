@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Menu</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<style>
+body {
+		background-color: #A18069;
+	 }
+.thumbnails img {
+		height: 80px;
+		border: 4px solid #555;
+		padding: 1px;
+		margin: 0 10px 10px 0;
+	}
+
+	.thumbnails img:hover {
+		border: 4px solid #00ccff;
+		cursor:pointer;
+	}
+
+	.preview img {
+		border: 4px solid #444;
+		padding: 1px;
+		width: 800px;
+	}
+</style>
+<body>
+<div class="container">
+<div class="container">
+
+<nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">AJ Coffee shop</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+	  <li><a href="#">Home</a></li>
+	  <li><a href="#">About us</a></li>
+        <li><a href="menu.html">Menu</a></li>
+        <li class="active"><a href="image.html">Gallery</a></li>
+        <li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#">Contact US <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="tel:16179915682">Call   &#x2706;</a></li>
+            <li><a href="sms:+16179915682?body=write your short message here..!!">SMS &#x2709;</a></li>
+            <li><a href="mailto:upadhyay.arjun61@gmail.com">E-mail &#x212E;</a></li>
+          </ul>
+        </li>
+		<li><a href="#">Careers</a></li>
+        
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#"><span class="glyphicon glyphicon-user"></span> Register</a></li>
+        <li><a href="#"><span class="glyphicon glyphicon-comment"></span> Feedback</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<br><br>
+
+<div class="gallery" align="center">
+	<h3>Some of the images from our valuable guests..!! &#9786;&#9786;</h3>
+	
+	<div class="thumbnails">
+		<img onmouseover="preview.src=img1.src" name="img1" src="img1.jpg" alt="img1"/>
+		<img onmouseover="preview.src=img2.src" name="img2" src="img2.jpg" alt="img2"/>
+		<img onmouseover="preview.src=img3.src" name="img3" src="img3.jpg" alt="img3"/>
+		<img onmouseover="preview.src=img4.src" name="img4" src="img4.jpg" alt="img4"/>
+		<img onmouseover="preview.src=img5.src" name="img5" src="img5.jpg" alt="img5"/>
+		<img onmouseover="preview.src=img6.src" name="img6" src="img6.jpg" alt="img6"/>
+		<img onmouseover="preview.src=img7.src" name="img7" src="img7.jpg" alt="img7"/>
+		<img onmouseover="preview.src=img8.src" name="img8" src="img8.jpg" alt="img8"/>
+	</div>
+	
+	<div class="preview" align="center">
+	<img name="preview" src="img1.jpg" alt="img"/>
+	
+	</div>
+
+	</div> <!-- Close the gallery div -->
+
+<br><br><br>
+  <nav class="navbar navbar-inverse navbar-fixed-bottom">
+  <div class="container-fluid">
+    <div class="navbar-header navbar-right">
+      <a class="navbar-brand" href="#">AJ Coffee Shop</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li><a href="copyright.html">© Copyright 2016</a></a></li>
+      <li><a href="terms.html">**Terms & Conditions</a></li>
+    </ul>
+  </div>
+</nav>
+</div>

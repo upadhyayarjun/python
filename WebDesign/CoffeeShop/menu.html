@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<!-- saved from url=(0042)file:///A:/NEU/FALL/New%20folder/menu.html -->
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+<style>
+body {
+		background-color: #A18069;
+	 }
+	 
+a	{
+		color: white;
+		text-align: center;
+	}	
+
+	
+div.container {
+    width: 100%;
+    border: 1px solid gray;
+}
+
+#header, #footer {
+    padding: 1px;
+    color: white;
+    background-color: black;
+    clear: left;
+    text-align: center;
+}
+
+#menu {
+    float: left;
+    margin: 0;
+    
+}
+
+
+/* unvisited link */
+a:link {
+    color: white;
+}
+
+/* visited link */
+a:visited {
+    color: yellow;
+}
+
+/* mouse over link */
+a:hover {
+    color: hotpink;
+}
+
+/* selected link */
+a:active {
+    color: blue;
+}
+
+ul
+{
+    margin: 0;
+    padding: 0;
+}
+
+li
+{
+    list-style:none;
+}
+
+a
+{
+    text-decoration:none;
+}
+
+.cl-menu li
+{
+    position: relative;
+}
+
+.cl-menu > li:hover
+{
+    font-weight:bold;
+    opacity: 1;
+    filter: alpha(opacity=100);
+}
+
+.cl-menu li:hover
+{
+    background-color:#CFCAC8;
+}
+
+.cl-menu li a
+{
+    display: block;
+    min-width: 150px;
+    padding: 10px;
+    color:#CEF6F5;
+    font-family: 'Rancho', cursive;
+}
+
+.cl-menu li:hover a
+{
+    color:#FFF;
+
+}
+
+.cl-menu li ul
+{
+    position: absolute;
+    top: 0;
+    left: 100%;
+    
+    display:none;
+}
+
+.cl-menu li:hover > ul
+{
+    display:block;
+    opacity: 0.8;
+    filter: alpha(opacity=80);
+}
+	
+	#content {
+		margin-left: 200px;
+		border-left: 1px solid white;
+		padding: 1em;
+		height: 360px;
+		overflow: auto
+	}
+
+#title  {
+			color: white;
+			margin-left: 690px;
+		}		
+#menu	{
+			text-align: center;
+		}	
+
+table {
+    border-collapse: collapse;
+    
+}
+
+th, td {
+    text-align: center;
+    padding: 6px;
+}
+
+tr:nth-child(odd){background-color: #D0BFB4}
+
+th {
+    background-color: #D0BFB4;
+    color: black;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	"Comic Sans MS", cursive, sans-serif
+}
+
+tr{
+    
+    color: black;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	
+}
+
+h1	{
+		text-align: center;
+		color: maroon;
+		font-size: 20px;
+		font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	}		
+</style>
+
+<title>Menu</title>
+
+</head>
+<body>
+<div class = "container">
+<div id="header">
+<center><img src="steaming.jpg" alt="Coffee Shop" style="height:250px;"/></center>
+</div>
+<br/>
+<div id="menu">
+<br>
+<ul class="cl-menu">
+<li><a href="home.html">Home</a></li><br/>
+<li><a href="aboutUs.html">About US</a></li><br/>
+<li><a href="menu.html">Menu</a></li><br/>
+<li><a href="imageGallery.html">Gallery</a></li><br/>
+<li id='albumes'>
+            <a href="#">Contact US</a>
+            <ul>
+                <li>
+                    <a href="tel:16179915682">Call us &#x2706;</a>
+                </li>
+                <li>
+                    <a href="sms:+16179915682?body=write your short message here..!!">SMS us now! &#x2709;</a>
+                </li>
+				<li>
+                    <a href="mailto:upadhyay.arjun61@gmail.com">E-mail &#x212E;</a>
+                </li>
+            </ul>   
+</li><br/>
+<li><a href="careers.html">Careers</a></li><br/>
+<li><a href="userRegistration.html">Register</a></li><br/>
+<li><a href="feedback.html">Feedback</a></li><br/>
+
+</ul>
+
+</div>
+<br>
+
+
+<div id="content">
+<center>
+<h1>Choose from our specialities</h1>
+</center>
+<div>
+				  <center><h1><i>Choose your coffee</i></h1></center>
+				  <center><table class="table table-striped table-responsive"><tr><th>Type</th><th>Description</th><th>Price</th></tr>
+  <tr>
+    <td>Coffee</td>
+    <td>regular</td>
+    <td>$1.50/$2.00/$2.50</td>
+  </tr>
+  <tr>
+    <td>Iced coffee</td>
+    <td>Cold Brew</td>
+    <td>$2.75/$3.25</td>
+  </tr>
+  <tr>
+    <td>CafÃ© Au Lait</td>
+    <td>Coffee with steamed milk.</td>
+    <td>$2.90/$3.10</td>
+  </tr>
+  <tr>
+    <td>Espresso</td>
+    <td>Evergreen</td>
+    <td>$2.75</td>
+  </tr>
+  <tr>
+    <td>Macchiato</td>
+    <td>Espresso with a dollop of milk.</td>
+    <td>$3.50</td>
+  </tr>
+  <tr>
+    <td>Latte</td>
+    <td>Espresso with foamed milk.</td>
+    <td>$3.50/$4.00/$4.50</td>
+  </tr>
+  <tr>
+    <td>Mocha</td>
+    <td>Espresso, premium home made chocolate sauce and foamed milk.</td>
+    <td>$2.50/$3.10/$3.50</td>
+  </tr>
+
+</table>
+</center>
+	
+<center><h1><strong><i>Tea &amp; More</i></strong></h1></center>
+				  <center><table class="table table-striped table-responsive"><tr><th>Type</th><th>Description</th><th>Price</th></tr>
+  <tr>
+    <td>Hot Tea</td>
+    <td>Green, Jasmine, Rooibos, Crimson Berry,White mountain drum cloud.</td>
+    <td>$3.00</td>
+  </tr>
+  <tr>
+    <td>French Hot Chocolate</td>
+    <td>64% Tainori Valhrona Drinking Chocolate</td>
+    <td>$3.95/$4.95</td>
+  </tr>
+  <tr>
+    <td>Chai Latte</td>
+    <td>- -</td>
+    <td>$3.50/$3.95/$4.25</td>
+  </tr>
+  <tr>
+    <td>Iced Tea</td>
+    <td>Bergamot Black, Golden Green, Crimson Berry</td>
+    <td>$2.00/$2.50</td>
+  </tr>
+  <tr>
+    <td>Orange/Grapefruit Juice</td>
+    <td>Freshly Squeezed.</td>
+    <td>$3.50</td>
+  </tr>
+  
+</table>
+</center>	
+
+<center><h1><strong><i>Snacks</i></strong></h1></center>
+				  <center><table class="table table-striped table-responsive"><tr><th>Type</th><th>Description</th><th>Price</th></tr>
+  <tr>
+    <td>Cage-free Eggs</td>
+    <td>with potato, nitrate-free bacon, and gruyere<br>
+				   or<br>
+				   with Spinach, Roasted red peppers and mushroom.</td>
+    <td>$6.95</td>
+  </tr>
+  <tr>
+    <td>Breakfast Burrito</td>
+    <td>Choice of Sausage, Bacon , Ham or Chorizo with<br>
+	or<br>
+                  Egg, Salsa, Black Beans, Pepper-jack Cheese on flour Tortilla </td>
+    <td>$5.95</td>
+  </tr>
+  <tr>
+    <td>Croissante</td>
+    <td>Chocolate croissant, almond croissant</td>
+    <td>$3.50</td>
+  </tr>
+  <tr>
+    <td>Grilled Cheese Sandwich</td>
+    <td>Choice of bread, cheese and plenty of add-ons</td>
+    <td>$6.50</td>
+  </tr>
+  <tr>
+    <td>Bagels</td>
+    <td>Plain, Wheat, Everything, Cinnamon Raisin</td>
+    <td>$2.25/$2.50/$2.75</td>
+  </tr>
+  
+</table>
+</center>	
+    </div>  
+</div>	
+<br/>
+
+<center>
+<div id="footer">
+  <br>
+  <p><a href="copyright.html">© Copyright 2016</a>&nbsp&nbsp&nbsp&nbsp<a href="terms.html">**Terms & Conditions</a>&nbsp&nbsp&nbsp&nbspContact information: <a href="mailto:upadhyay.arjun61@gmail.com">E-mail</a></p>
+</div>
+</center>
+
+</body>
+</html>

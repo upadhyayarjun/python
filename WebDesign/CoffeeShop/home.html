@@ -1,0 +1,201 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+
+@media print {
+	
+	#header, #footer {
+						display: none;
+					 }
+}
+@media screen and (max-width: 667px) and (min-width: 375px)
+	{
+			#header{
+						display: none;
+					}
+					
+	}
+
+
+body {
+		background-color: #A18069;
+	 }
+	 
+a	{
+		color: white;
+		text-align: center;
+	}	
+
+	
+div.container {
+    width: 100%;
+    border: 1px solid gray;
+}
+
+#header, #footer {
+    padding: 1px;
+    color: white;
+    background-color: black;
+    clear: left;
+    text-align: center;
+}
+
+#menu {
+    float: left;
+    margin: 0;
+    
+}
+
+
+/* unvisited link */
+a:link {
+    color: white;
+}
+
+/* visited link */
+a:visited {
+    color: yellow;
+}
+
+/* mouse over link */
+a:hover {
+    color: hotpink;
+}
+
+/* selected link */
+a:active {
+    color: blue;
+}
+
+#content {
+			text-align: center;
+			color: maroon;
+			font-size: 36px;
+			font-family: "Comic Sans MS", cursive, sans-serif;
+			margin-left: 150px;
+			padding: 1em;
+			overflow: hidden;
+		 }	
+
+
+ul
+{
+    margin: 0;
+    padding: 0;
+}
+
+li
+{
+    list-style:none;
+}
+
+a
+{
+    text-decoration:none;
+}
+
+.cl-menu li
+{
+    position: relative;
+}
+
+.cl-menu > li:hover
+{
+    font-weight:bold;
+    opacity: 1;
+    filter: alpha(opacity=100);
+}
+
+.cl-menu li:hover
+{
+    background-color:#CFCAC8;
+}
+
+.cl-menu li a
+{
+    display: block;
+    min-width: 150px;
+    padding: 10px;
+    color:#CEF6F5;
+    font-family: 'Rancho', cursive;
+}
+
+.cl-menu li:hover a
+{
+    color:#FFF;
+
+}
+
+.cl-menu li ul
+{
+    position: absolute;
+    top: 0;
+    left: 100%;
+    
+    display:none;
+}
+
+.cl-menu li:hover > ul
+{
+    display:block;
+    opacity: 0.8;
+    filter: alpha(opacity=80);
+}
+
+</style>
+<title>A J Coffee Shop</title>
+
+</head>
+<body>
+
+<div id="header">
+<img src="steaming.jpg" alt="Coffee Shop" style="height:250px;"/>
+</div>
+
+<div id="menu">
+<br>
+<ul class="cl-menu">
+<li><a href="home.html">Home</a></li><br/>
+<li><a href="aboutUs.html">About US</a></li><br/>
+<li><a href="menu.html">Menu</a></li><br/>
+<li><a href="imageGallery.html">Gallery</a></li><br/>
+<li id='albumes'>
+            <a href="#">Contact US</a>
+            <ul>
+                <li>
+                    <a href="tel:16179915682">Call us &#x2706;</a>
+                </li>
+                <li>
+                    <a href="sms:+16179915682?body=write your short message here..!!">SMS us now! &#x2709;</a>
+                </li>
+				<li>
+                    <a href="mailto:upadhyay.arjun61@gmail.com">E-mail &#x212E;</a>
+                </li>
+            </ul>   
+</li><br/>
+<li><a href="careers.html">Careers</a></li><br/>
+<li><a href="userRegistration.html">Register</a></li><br/>
+<li><a href="feedback.html">Feedback</a></li><br/>
+
+</ul>
+
+</div>
+<br>
+
+
+<div id="content">
+<br>
+<center>Welcome to AJ's buddy ..!!</center><br/>
+</div>
+<br/>
+<center>
+<div id="footer">
+  <br>
+  
+  <p><a href="copyright.html">© Copyright 2016</a>&nbsp&nbsp&nbsp&nbsp<a href="terms.html">**Terms & Conditions</a>&nbsp&nbsp&nbsp&nbsp</p>
+</div>
+</center>
+</body>
+</html>

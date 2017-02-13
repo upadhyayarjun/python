@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Menu</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<style>
+#par {
+		text-align : center;
+		color: red;
+	 }
+body {
+		background-color: #A18069;
+	 }
+.menu	{
+		background-color : white;
+	}
+.header {
+			background-color : black;
+		}	 
+</style>
+<body>
+<div class="container">
+
+<nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">AJ Coffee shop</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+	  <li><a href="#">Home</a></li>
+	  <li><a href="#">About us</a></li>
+        <li class="active"><a href="menu.html">Menu</a></li>
+        <li><a href="image.html">Gallery</a></li>
+        <li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#">Contact US <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="tel:16179915682">Call   &#x2706;</a></li>
+            <li><a href="sms:+16179915682?body=write your short message here..!!">SMS &#x2709;</a></li>
+            <li><a href="mailto:upadhyay.arjun61@gmail.com">E-mail &#x212E;</a></li>
+          </ul>
+        </li>
+		<li><a href="#">Careers</a></li>
+        
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#"><span class="glyphicon glyphicon-user"></span> Register</a></li>
+        <li><a href="#"><span class="glyphicon glyphicon-comment"></span> Feedback</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<br><br><br>
+<div class="header">
+<center>
+<img class="img-responsive" src="coffee.jpg" alt="Coffee Shop" width="400" height="250">
+</center>
+</div>
+<div class="menu">
+  <h2>Choose from our specialities</h2>
+  <table class="table table-striped">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+        <th>Price ($)</th>
+      </tr>
+    </thead>
+    <tbody>
+	<tr>
+	<th id="par" class="span" colspan="5" scope="colgroup">
+            Choose from our coffee..!!
+     </th>
+	</tr>
+	<tr><td>Coffee</td>
+    <td>regular</td>
+    <td>$1.50/$2.00/$2.50</td>
+  </tr>
+  <tr>
+    <td>Iced coffee</td>
+    <td>Cold Brew</td>
+    <td>$2.75/$3.25</td>
+  </tr>
+  <tr>
+    <td>CafÃ© Au Lait</td>
+    <td>Coffee with steamed milk.</td>
+    <td>$2.90/$3.10</td>
+  </tr>
+  <tr>
+    <td>Espresso</td>
+    <td>Evergreen</td>
+    <td>$2.75</td>
+  </tr>
+  <tr>
+    <td>Macchiato</td>
+    <td>Espresso with a dollop of milk.</td>
+    <td>$3.50</td>
+  </tr>
+  <tr>
+    <td>Latte</td>
+    <td>Espresso with foamed milk.</td>
+    <td>$3.50/$4.00/$4.50</td>
+  </tr>
+  <tr>
+    <td>Mocha</td>
+    <td>Espresso, premium home made chocolate sauce and foamed milk.</td>
+    <td>$2.50/$3.10/$3.50</td>
+  </tr>
+	  
+  <th id="par" class="span" colspan="5" scope="colgroup">
+            Tea &amp; More..!!
+     </th>
+	</tr>
+      <tr>
+    <td>Hot Tea</td>
+    <td>Green, Jasmine, Rooibos, Crimson Berry,White mountain drum cloud.</td>
+    <td>$3.00</td>
+  </tr>
+  <tr>
+    <td>French Hot Chocolate</td>
+    <td>64% Tainori Valhrona Drinking Chocolate</td>
+    <td>$3.95/$4.95</td>
+  </tr>
+  <tr>
+    <td>Chai Latte</td>
+    <td>- -</td>
+    <td>$3.50/$3.95/$4.25</td>
+  </tr>
+  <tr>
+    <td>Iced Tea</td>
+    <td>Bergamot Black, Golden Green, Crimson Berry</td>
+    <td>$2.00/$2.50</td>
+  </tr>
+  <tr>
+    <td>Orange/Grapefruit Juice</td>
+    <td>Freshly Squeezed.</td>
+    <td>$3.50</td>
+  </tr>
+  
+  <th id="par" class="span" colspan="5" scope="colgroup">
+            Refreshments..!!
+     </th>
+	</tr>
+      <tr>
+    <td>Cage-free Eggs</td>
+    <td>with potato, nitrate-free bacon, and gruyere<br>
+				   or<br>
+				   with Spinach, Roasted red peppers and mushroom.</td>
+    <td>$6.95</td>
+  </tr>
+  <tr>
+    <td>Breakfast Burrito</td>
+    <td>Choice of Sausage, Bacon , Ham or Chorizo with<br>
+	or<br>
+                  Egg, Salsa, Black Beans, Pepper-jack Cheese on flour Tortilla </td>
+    <td>$5.95</td>
+  </tr>
+  <tr>
+    <td>Croissante</td>
+    <td>Chocolate croissant, almond croissant</td>
+    <td>$3.50</td>
+  </tr>
+  <tr>
+    <td>Grilled Cheese Sandwich</td>
+    <td>Choice of bread, cheese and plenty of add-ons</td>
+    <td>$6.50</td>
+  </tr>
+  <tr>
+    <td>Bagels</td>
+    <td>Plain, Wheat, Everything, Cinnamon Raisin</td>
+    <td>$2.25/$2.50/$2.75</td>
+  </tr>
+  
+    </tbody>
+  </table>
+  </div>
+  <br><br>
+  <nav class="navbar navbar-inverse navbar-fixed-bottom">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">AJ Coffee Shop</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li><a href="copyright.html">© Copyright 2016</a></a></li>
+      <li><a href="terms.html">**Terms & Conditions</a></li>
+    </ul>
+  </div>
+</nav>
+</div>
+</body>
+</html>

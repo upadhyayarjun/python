@@ -1,0 +1,280 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+<style>
+@media print {
+	
+	#header, #footer {
+						display: none;
+					 }
+}
+@media screen and (max-width: 667px) and (min-width: 375px)
+	{
+			#header{
+						display: none;
+					}
+			
+	}
+	
+
+
+body {
+		background-color: #A18069;
+	 }
+	 
+a	{
+		color: white;
+		text-align: center;
+	}	
+
+	
+div.container {
+    width: 100%;
+    border: 1px solid gray;
+}
+
+#header, #footer {
+    padding: 1px;
+    color: white;
+    background-color: black;
+    clear: left;
+    text-align: center;
+}
+
+#menu {
+    float: left;
+    margin: 0;
+    
+}
+
+
+/* unvisited link */
+a:link {
+    color: white;
+}
+
+/* visited link */
+a:visited {
+    color: yellow;
+}
+
+/* mouse over link */
+a:hover {
+    color: hotpink;
+}
+
+/* selected link */
+a:active {
+    color: blue;
+}
+
+ul
+{
+    margin: 0;
+    padding: 0;
+}
+
+li
+{
+    list-style:none;
+}
+
+a
+{
+    text-decoration:none;
+}
+
+.cl-menu li
+{
+    position: relative;
+}
+
+.cl-menu > li:hover
+{
+    font-weight:bold;
+    opacity: 1;
+    filter: alpha(opacity=100);
+}
+
+.cl-menu li:hover
+{
+    background-color:#CFCAC8;
+}
+
+.cl-menu li a
+{
+    display: block;
+    min-width: 150px;
+    padding: 10px;
+    color:#CEF6F5;
+    font-family: 'Rancho', cursive;
+}
+
+.cl-menu li:hover a
+{
+    color:#FFF;
+
+}
+
+.cl-menu li ul
+{
+    position: absolute;
+    top: 0;
+    left: 100%;
+    
+    display:none;
+}
+
+.cl-menu li:hover > ul
+{
+    display:block;
+    opacity: 0.8;
+    filter: alpha(opacity=80);
+}
+
+input[type=text], select {
+    
+    
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+input[type=password], checkbox {
+    
+    
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+input[type=range] {
+    
+    
+	border: 1px solid #ccc;
+    border-radius: 2px;
+	box-sizing: border-box;
+}
+label {
+		
+		color : white;
+	  }
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+#form {
+    border-radius: 5px;
+	
+	
+}
+
+#content {
+text-align: center;
+			color: maroon;
+			font-size: 18px;
+			font-family: "Comic Sans MS", cursive, sans-serif;
+			margin-left: 150px;
+			
+    padding: 1em;
+	
+	height: 360px;
+	overflow: auto;
+}		
+</style>
+
+<title>A J Coffee Shop</title>
+
+</head>
+<body>
+
+<div id="header">
+<center><img src="steaming.jpg" alt="Coffee Shop" style="height:250px;"/></center>
+</div>
+<br/>
+<div id="menu">
+<br>
+<ul class="cl-menu">
+<li><a href="home.html">Home</a></li><br/>
+<li><a href="aboutUs.html">About US</a></li><br/>
+<li><a href="menu.html">Menu</a></li><br/>
+<li><a href="imageGallery.html">Gallery</a></li><br/>
+<li id='albumes'>
+            <a href="#">Contact US</a>
+            <ul>
+                <li>
+                    <a href="tel:16179915682">Call us &#x2706;</a>
+                </li>
+                <li>
+                    <a href="sms:+16179915682?body=write your short message here..!!">SMS us now! &#x2709;</a>
+                </li>
+				<li>
+                    <a href="mailto:upadhyay.arjun61@gmail.com">E-mail &#x212E;</a>
+                </li>
+            </ul>   
+</li><br/>
+<li><a href="careers.html">Careers</a></li><br/>
+<li><a href="userRegistration.html">Register</a></li><br/>
+<li><a href="feedback.html">Feedback</a></li><br/>
+
+</ul>
+
+</div>
+<br>
+<div id="content">
+<h1>Feedback</h1>
+<div>
+<marquee>Please fiil out the below feedback form and tell us about your experience..!!</marquee>
+</div>
+<div id="form">
+<form id="form">
+  <label for="fname">First name</label>
+  <input type="text" name="firstname" id="text1" required/>
+  <br/><br/>
+  <label for="lname"> Last name</label>
+  <input type="text" name="lastname" id="text2" required/>
+  <br/><br/>
+  <label for="phone">     phone&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+  <input type="text" name="phone" id="phone" required/>
+  <br/><br/>
+  <label for="email">     Email&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  </label>
+  <input type="text" name="email" id="email1" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$" title="email must follow standard pattern" required/>
+  <br/><br/>
+  <label for="foodQuality">Quality of food</label>
+  <input type="range" id="foodQuality" value="10">
+  <br/><br/>
+  <label for="staffQuality">Courtesy of staff</label>
+  <input type="range" id="staffQuality" value="10">
+  <br/><br/>
+  <label for="serviceQuality">Speed of service</label>
+  <input type="range" id="serviceQuality" value="10">
+  <br/><br/>
+  <label for="moneyQuality">value for money</label>
+  <input type="range" id="moneyQuality" value="10">
+  <br/><br/>
+  <button type="button" onclick="cancleReq()">Cancle</button>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<button type="submit">Submit Feedback </button>
+  
+</form>
+</div>
+</div>
+<div id="footer">
+  <br>
+  
+  <p><a href="copyright.html">© Copyright 2016</a>&nbsp&nbsp&nbsp&nbsp<a href="terms.html">**Terms & Conditions</a>&nbsp&nbsp&nbsp&nbsp</p>
+</div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="Validation.js">
+  </script>
+</body>
+</html>
+
+
+

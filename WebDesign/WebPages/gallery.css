@@ -1,0 +1,79 @@
+.thumbnails img {
+		height: 80px;
+		border: 4px solid #555;
+		padding: 1px;
+		margin: 0 10px 10px 0;
+	}
+
+.thumbnails img:hover {
+			border: 4px solid #00ccff;
+			cursor:pointer;
+		      }
+.preview img {
+		border: 4px solid #444;
+		padding: 1px;
+		width: 800px;
+	     }
+	
+	
+a	{
+		color: white;
+		text-align: center;
+	}	
+
+#header, #footer {
+			padding: 1px;
+			color: white;
+			background-color: black;
+			clear: left;
+			text-align: center;
+		}
+
+#menu {
+		float: left;
+		max-width: 160px;
+		margin: 0;
+		
+	}
+
+#menu ul {
+		list-style-type: none;
+		padding: 0;
+	}
+	   
+#menu ul a {
+		align:center;
+		text-decoration: none;
+		padding-left: 70px;
+		
+	}
+	
+/* unvisited link */
+a:link {
+    color: white;
+}
+
+/* visited link */
+a:visited {
+    color: yellow;
+}
+
+/* mouse over link */
+a:hover {
+    color: hotpink;
+}
+
+/* selected link */
+a:active {
+    color: blue;
+}
+	
+#content {
+		margin-left: 200px;
+		border-left: 1px solid white;
+		color: white;
+		padding: 1em;
+		width: 1250px;
+		height: 360px;
+		overflow: auto;
+	}
